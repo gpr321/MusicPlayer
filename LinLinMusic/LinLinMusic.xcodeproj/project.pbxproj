@@ -1,0 +1,819 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040F37CA1A772F57004317E9 /* GPLRCViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F37C41A772F57004317E9 /* GPLRCViewItem.m */; };
+		040F37CB1A772F57004317E9 /* GPMusicLRC.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F37C61A772F57004317E9 /* GPMusicLRC.m */; };
+		040F37CC1A772F57004317E9 /* GPLRCView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F37C91A772F57004317E9 /* GPLRCView.m */; };
+		040F37CF1A77300E004317E9 /* GPMusicLRCController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F37CE1A77300E004317E9 /* GPMusicLRCController.m */; };
+		040F37D11A773170004317E9 /* GPMusicLRCController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040F37D01A773170004317E9 /* GPMusicLRCController.storyboard */; };
+		040F37D41A773386004317E9 /* GPMusicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F37D31A773386004317E9 /* GPMusicCell.m */; };
+		040F37D81A77760E004317E9 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F37D71A77760E004317E9 /* UIView+Frame.m */; };
+		040F37DB1A7782BB004317E9 /* GPLRCContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F37DA1A7782BB004317E9 /* GPLRCContainerView.m */; };
+		040FD5511A74BEC4006CF97D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD5501A74BEC4006CF97D /* main.m */; };
+		040FD55C1A74BEC4006CF97D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040FD55B1A74BEC4006CF97D /* Images.xcassets */; };
+		040FD55F1A74BEC4006CF97D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 040FD55D1A74BEC4006CF97D /* LaunchScreen.xib */; };
+		040FD56B1A74BEC4006CF97D /* LinLinMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD56A1A74BEC4006CF97D /* LinLinMusicTests.m */; };
+		040FD57B1A74BF0D006CF97D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD5771A74BF0D006CF97D /* AppDelegate.m */; };
+		040FD57C1A74BF0D006CF97D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040FD5781A74BF0D006CF97D /* Main.storyboard */; };
+		040FD57D1A74BF0D006CF97D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD57A1A74BF0D006CF97D /* ViewController.m */; };
+		040FD5981A74BFFA006CF97D /* GPAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD5811A74BFFA006CF97D /* GPAudioPlayer.m */; };
+		040FD59A1A74BFFA006CF97D /* NSMutableArray+STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD5861A74BFFA006CF97D /* NSMutableArray+STKAudioPlayer.m */; };
+		040FD59B1A74BFFA006CF97D /* STKAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD5881A74BFFA006CF97D /* STKAudioPlayer.m */; };
+		040FD59C1A74BFFA006CF97D /* STKAutoRecoveringHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD58A1A74BFFA006CF97D /* STKAutoRecoveringHTTPDataSource.m */; };
+		040FD59D1A74BFFA006CF97D /* STKCoreFoundationDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD58C1A74BFFA006CF97D /* STKCoreFoundationDataSource.m */; };
+		040FD59E1A74BFFA006CF97D /* STKDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD58E1A74BFFA006CF97D /* STKDataSource.m */; };
+		040FD59F1A74BFFA006CF97D /* STKDataSourceWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD5901A74BFFA006CF97D /* STKDataSourceWrapper.m */; };
+		040FD5A01A74BFFA006CF97D /* STKHTTPDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD5921A74BFFA006CF97D /* STKHTTPDataSource.m */; };
+		040FD5A11A74BFFA006CF97D /* STKLocalFileDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD5941A74BFFA006CF97D /* STKLocalFileDataSource.m */; };
+		040FD5A21A74BFFA006CF97D /* STKQueueEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD5961A74BFFA006CF97D /* STKQueueEntry.m */; };
+		040FD5A91A74C38F006CF97D /* GPMusicPlayingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD5A81A74C38F006CF97D /* GPMusicPlayingController.m */; };
+		040FD5AB1A74C3A0006CF97D /* GPMusicPlayingController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040FD5AA1A74C3A0006CF97D /* GPMusicPlayingController.storyboard */; };
+		040FD5AE1A74CB2A006CF97D /* GPMusicControlView.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD5AD1A74CB2A006CF97D /* GPMusicControlView.m */; };
+		040FD5B01A74D53E006CF97D /* a.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 040FD5AF1A74D53E006CF97D /* a.mp3 */; };
+		040FD5B31A74D595006CF97D /* GPMusicQueueId.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD5B21A74D595006CF97D /* GPMusicQueueId.m */; };
+		040FD5B61A74D8BC006CF97D /* GPMusicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD5B51A74D8BC006CF97D /* GPMusicItem.m */; };
+		040FD5B91A74DDC6006CF97D /* GPStartPlayButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 040FD5B81A74DDC6006CF97D /* GPStartPlayButton.m */; };
+		042AB4771A76A0FF00E53553 /* a.lrc in Resources */ = {isa = PBXBuildFile; fileRef = 042AB4761A76A0FF00E53553 /* a.lrc */; };
+		046306CF1A866F4D0035B7C5 /* GPNetWorkingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 046306CE1A866F4D0035B7C5 /* GPNetWorkingManager.m */; };
+		047152051A874A6900CD1EC2 /* GPMusicTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 047152041A874A6900CD1EC2 /* GPMusicTool.m */; };
+		0478359C1A8723580059E2FD /* NSString+Regex.m in Sources */ = {isa = PBXBuildFile; fileRef = 0478359B1A8723580059E2FD /* NSString+Regex.m */; };
+		049635E91A77F46A00E0BC00 /* GPConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 049635E81A77F46A00E0BC00 /* GPConst.m */; };
+		496434F5156327CAE7BF88AA /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F392BB877CFA8EBE24C7F57 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		040FD5651A74BEC4006CF97D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 040FD5431A74BEC3006CF97D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 040FD54A1A74BEC3006CF97D;
+			remoteInfo = LinLinMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040F37C31A772F57004317E9 /* GPLRCViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPLRCViewItem.h; sourceTree = "<group>"; };
+		040F37C41A772F57004317E9 /* GPLRCViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPLRCViewItem.m; sourceTree = "<group>"; };
+		040F37C51A772F57004317E9 /* GPMusicLRC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPMusicLRC.h; sourceTree = "<group>"; };
+		040F37C61A772F57004317E9 /* GPMusicLRC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPMusicLRC.m; sourceTree = "<group>"; };
+		040F37C81A772F57004317E9 /* GPLRCView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPLRCView.h; sourceTree = "<group>"; };
+		040F37C91A772F57004317E9 /* GPLRCView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPLRCView.m; sourceTree = "<group>"; };
+		040F37CD1A77300E004317E9 /* GPMusicLRCController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPMusicLRCController.h; sourceTree = "<group>"; };
+		040F37CE1A77300E004317E9 /* GPMusicLRCController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPMusicLRCController.m; sourceTree = "<group>"; };
+		040F37D01A773170004317E9 /* GPMusicLRCController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPMusicLRCController.storyboard; sourceTree = "<group>"; };
+		040F37D21A773386004317E9 /* GPMusicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPMusicCell.h; sourceTree = "<group>"; };
+		040F37D31A773386004317E9 /* GPMusicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPMusicCell.m; sourceTree = "<group>"; };
+		040F37D61A77760E004317E9 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		040F37D71A77760E004317E9 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		040F37D91A7782BB004317E9 /* GPLRCContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPLRCContainerView.h; sourceTree = "<group>"; };
+		040F37DA1A7782BB004317E9 /* GPLRCContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPLRCContainerView.m; sourceTree = "<group>"; };
+		040FD54B1A74BEC3006CF97D /* LinLinMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinLinMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040FD54F1A74BEC4006CF97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040FD5501A74BEC4006CF97D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		040FD55B1A74BEC4006CF97D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		040FD55E1A74BEC4006CF97D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		040FD5641A74BEC4006CF97D /* LinLinMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinLinMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		040FD5691A74BEC4006CF97D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040FD56A1A74BEC4006CF97D /* LinLinMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LinLinMusicTests.m; sourceTree = "<group>"; };
+		040FD5761A74BF0D006CF97D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		040FD5771A74BF0D006CF97D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		040FD5781A74BF0D006CF97D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		040FD5791A74BF0D006CF97D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		040FD57A1A74BF0D006CF97D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		040FD5801A74BFFA006CF97D /* GPAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPAudioPlayer.h; sourceTree = "<group>"; };
+		040FD5811A74BFFA006CF97D /* GPAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPAudioPlayer.m; sourceTree = "<group>"; };
+		040FD5851A74BFFA006CF97D /* NSMutableArray+STKAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+STKAudioPlayer.h"; sourceTree = "<group>"; };
+		040FD5861A74BFFA006CF97D /* NSMutableArray+STKAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+STKAudioPlayer.m"; sourceTree = "<group>"; };
+		040FD5871A74BFFA006CF97D /* STKAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKAudioPlayer.h; sourceTree = "<group>"; };
+		040FD5881A74BFFA006CF97D /* STKAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKAudioPlayer.m; sourceTree = "<group>"; };
+		040FD5891A74BFFA006CF97D /* STKAutoRecoveringHTTPDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKAutoRecoveringHTTPDataSource.h; sourceTree = "<group>"; };
+		040FD58A1A74BFFA006CF97D /* STKAutoRecoveringHTTPDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKAutoRecoveringHTTPDataSource.m; sourceTree = "<group>"; };
+		040FD58B1A74BFFA006CF97D /* STKCoreFoundationDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKCoreFoundationDataSource.h; sourceTree = "<group>"; };
+		040FD58C1A74BFFA006CF97D /* STKCoreFoundationDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKCoreFoundationDataSource.m; sourceTree = "<group>"; };
+		040FD58D1A74BFFA006CF97D /* STKDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKDataSource.h; sourceTree = "<group>"; };
+		040FD58E1A74BFFA006CF97D /* STKDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKDataSource.m; sourceTree = "<group>"; };
+		040FD58F1A74BFFA006CF97D /* STKDataSourceWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKDataSourceWrapper.h; sourceTree = "<group>"; };
+		040FD5901A74BFFA006CF97D /* STKDataSourceWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKDataSourceWrapper.m; sourceTree = "<group>"; };
+		040FD5911A74BFFA006CF97D /* STKHTTPDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKHTTPDataSource.h; sourceTree = "<group>"; };
+		040FD5921A74BFFA006CF97D /* STKHTTPDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKHTTPDataSource.m; sourceTree = "<group>"; };
+		040FD5931A74BFFA006CF97D /* STKLocalFileDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKLocalFileDataSource.h; sourceTree = "<group>"; };
+		040FD5941A74BFFA006CF97D /* STKLocalFileDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKLocalFileDataSource.m; sourceTree = "<group>"; };
+		040FD5951A74BFFA006CF97D /* STKQueueEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STKQueueEntry.h; sourceTree = "<group>"; };
+		040FD5961A74BFFA006CF97D /* STKQueueEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STKQueueEntry.m; sourceTree = "<group>"; };
+		040FD5971A74BFFA006CF97D /* StreamingKit-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "StreamingKit-Prefix.pch"; sourceTree = "<group>"; };
+		040FD5A71A74C38F006CF97D /* GPMusicPlayingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPMusicPlayingController.h; sourceTree = "<group>"; };
+		040FD5A81A74C38F006CF97D /* GPMusicPlayingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPMusicPlayingController.m; sourceTree = "<group>"; };
+		040FD5AA1A74C3A0006CF97D /* GPMusicPlayingController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = GPMusicPlayingController.storyboard; sourceTree = "<group>"; };
+		040FD5AC1A74CB2A006CF97D /* GPMusicControlView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPMusicControlView.h; sourceTree = "<group>"; };
+		040FD5AD1A74CB2A006CF97D /* GPMusicControlView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPMusicControlView.m; sourceTree = "<group>"; };
+		040FD5AF1A74D53E006CF97D /* a.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = a.mp3; sourceTree = "<group>"; };
+		040FD5B11A74D595006CF97D /* GPMusicQueueId.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPMusicQueueId.h; sourceTree = "<group>"; };
+		040FD5B21A74D595006CF97D /* GPMusicQueueId.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPMusicQueueId.m; sourceTree = "<group>"; };
+		040FD5B41A74D8BC006CF97D /* GPMusicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPMusicItem.h; sourceTree = "<group>"; };
+		040FD5B51A74D8BC006CF97D /* GPMusicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPMusicItem.m; sourceTree = "<group>"; };
+		040FD5B71A74DDC6006CF97D /* GPStartPlayButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPStartPlayButton.h; sourceTree = "<group>"; };
+		040FD5B81A74DDC6006CF97D /* GPStartPlayButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPStartPlayButton.m; sourceTree = "<group>"; };
+		042AB4761A76A0FF00E53553 /* a.lrc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = a.lrc; sourceTree = "<group>"; };
+		046306CD1A866F4D0035B7C5 /* GPNetWorkingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPNetWorkingManager.h; sourceTree = "<group>"; };
+		046306CE1A866F4D0035B7C5 /* GPNetWorkingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPNetWorkingManager.m; sourceTree = "<group>"; };
+		046306D01A866F880035B7C5 /* GPSingleTon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSingleTon.h; sourceTree = "<group>"; };
+		047152031A874A6900CD1EC2 /* GPMusicTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPMusicTool.h; sourceTree = "<group>"; };
+		047152041A874A6900CD1EC2 /* GPMusicTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPMusicTool.m; sourceTree = "<group>"; };
+		0478359A1A8723580059E2FD /* NSString+Regex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Regex.h"; sourceTree = "<group>"; };
+		0478359B1A8723580059E2FD /* NSString+Regex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Regex.m"; sourceTree = "<group>"; };
+		049635E81A77F46A00E0BC00 /* GPConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPConst.m; sourceTree = "<group>"; };
+		049635EA1A77F4D800E0BC00 /* LinLinMusic.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinLinMusic.pch; sourceTree = "<group>"; };
+		049635EB1A77F5B500E0BC00 /* GPConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPConst.h; sourceTree = "<group>"; };
+		1E167FF6FDD45CDCD4544022 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5F392BB877CFA8EBE24C7F57 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		88412DC53D0314997C2B4553 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040FD5481A74BEC3006CF97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				496434F5156327CAE7BF88AA /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040FD5611A74BEC4006CF97D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040F37C01A772F57004317E9 /* MusicLRC */ = {
+			isa = PBXGroup;
+			children = (
+				040F37C11A772F57004317E9 /* Controller */,
+				040F37C21A772F57004317E9 /* Model */,
+				040F37C71A772F57004317E9 /* View */,
+			);
+			path = MusicLRC;
+			sourceTree = "<group>";
+		};
+		040F37C11A772F57004317E9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				040F37CD1A77300E004317E9 /* GPMusicLRCController.h */,
+				040F37CE1A77300E004317E9 /* GPMusicLRCController.m */,
+				040F37D01A773170004317E9 /* GPMusicLRCController.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040F37C21A772F57004317E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				040F37C31A772F57004317E9 /* GPLRCViewItem.h */,
+				040F37C41A772F57004317E9 /* GPLRCViewItem.m */,
+				040F37C51A772F57004317E9 /* GPMusicLRC.h */,
+				040F37C61A772F57004317E9 /* GPMusicLRC.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040F37C71A772F57004317E9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				040F37C81A772F57004317E9 /* GPLRCView.h */,
+				040F37C91A772F57004317E9 /* GPLRCView.m */,
+				040F37D21A773386004317E9 /* GPMusicCell.h */,
+				040F37D31A773386004317E9 /* GPMusicCell.m */,
+				040F37D91A7782BB004317E9 /* GPLRCContainerView.h */,
+				040F37DA1A7782BB004317E9 /* GPLRCContainerView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040F37D51A7775E8004317E9 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0478359A1A8723580059E2FD /* NSString+Regex.h */,
+				0478359B1A8723580059E2FD /* NSString+Regex.m */,
+				040F37D61A77760E004317E9 /* UIView+Frame.h */,
+				040F37D71A77760E004317E9 /* UIView+Frame.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		040FD5421A74BEC3006CF97D = {
+			isa = PBXGroup;
+			children = (
+				040FD54D1A74BEC3006CF97D /* LinLinMusic */,
+				040FD5671A74BEC4006CF97D /* LinLinMusicTests */,
+				040FD54C1A74BEC3006CF97D /* Products */,
+				9A941B791A4F6C606ACF5312 /* Pods */,
+				F8A52ACF0A377E38F8746678 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		040FD54C1A74BEC3006CF97D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040FD54B1A74BEC3006CF97D /* LinLinMusic.app */,
+				040FD5641A74BEC4006CF97D /* LinLinMusicTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040FD54D1A74BEC3006CF97D /* LinLinMusic */ = {
+			isa = PBXGroup;
+			children = (
+				040FD5741A74BF0D006CF97D /* Classes */,
+				040FD54E1A74BEC4006CF97D /* Supporting Files */,
+			);
+			path = LinLinMusic;
+			sourceTree = "<group>";
+		};
+		040FD54E1A74BEC4006CF97D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				042AB4761A76A0FF00E53553 /* a.lrc */,
+				040FD5AF1A74D53E006CF97D /* a.mp3 */,
+				040FD55B1A74BEC4006CF97D /* Images.xcassets */,
+				040FD55D1A74BEC4006CF97D /* LaunchScreen.xib */,
+				040FD54F1A74BEC4006CF97D /* Info.plist */,
+				040FD5501A74BEC4006CF97D /* main.m */,
+				049635EA1A77F4D800E0BC00 /* LinLinMusic.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		040FD5671A74BEC4006CF97D /* LinLinMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				040FD56A1A74BEC4006CF97D /* LinLinMusicTests.m */,
+				040FD5681A74BEC4006CF97D /* Supporting Files */,
+			);
+			path = LinLinMusicTests;
+			sourceTree = "<group>";
+		};
+		040FD5681A74BEC4006CF97D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				040FD5691A74BEC4006CF97D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		040FD5741A74BF0D006CF97D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				049635E41A77F3B200E0BC00 /* Other */,
+				040FD5D81A74EB2E006CF97D /* Vender */,
+				040FD5A31A74C133006CF97D /* MusicPlaying */,
+				040FD57E1A74BFFA006CF97D /* GPAudioPlayer */,
+				040FD5751A74BF0D006CF97D /* TestArea */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		040FD5751A74BF0D006CF97D /* TestArea */ = {
+			isa = PBXGroup;
+			children = (
+				040FD5761A74BF0D006CF97D /* AppDelegate.h */,
+				040FD5771A74BF0D006CF97D /* AppDelegate.m */,
+				040FD5781A74BF0D006CF97D /* Main.storyboard */,
+				040FD5791A74BF0D006CF97D /* ViewController.h */,
+				040FD57A1A74BF0D006CF97D /* ViewController.m */,
+			);
+			path = TestArea;
+			sourceTree = "<group>";
+		};
+		040FD57E1A74BFFA006CF97D /* GPAudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				040FD57F1A74BFFA006CF97D /* AudioPlayer */,
+				040FD5841A74BFFA006CF97D /* StreamingKit */,
+			);
+			path = GPAudioPlayer;
+			sourceTree = "<group>";
+		};
+		040FD57F1A74BFFA006CF97D /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				040FD5801A74BFFA006CF97D /* GPAudioPlayer.h */,
+				040FD5811A74BFFA006CF97D /* GPAudioPlayer.m */,
+			);
+			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		040FD5841A74BFFA006CF97D /* StreamingKit */ = {
+			isa = PBXGroup;
+			children = (
+				040FD5851A74BFFA006CF97D /* NSMutableArray+STKAudioPlayer.h */,
+				040FD5861A74BFFA006CF97D /* NSMutableArray+STKAudioPlayer.m */,
+				040FD5871A74BFFA006CF97D /* STKAudioPlayer.h */,
+				040FD5881A74BFFA006CF97D /* STKAudioPlayer.m */,
+				040FD5891A74BFFA006CF97D /* STKAutoRecoveringHTTPDataSource.h */,
+				040FD58A1A74BFFA006CF97D /* STKAutoRecoveringHTTPDataSource.m */,
+				040FD58B1A74BFFA006CF97D /* STKCoreFoundationDataSource.h */,
+				040FD58C1A74BFFA006CF97D /* STKCoreFoundationDataSource.m */,
+				040FD58D1A74BFFA006CF97D /* STKDataSource.h */,
+				040FD58E1A74BFFA006CF97D /* STKDataSource.m */,
+				040FD58F1A74BFFA006CF97D /* STKDataSourceWrapper.h */,
+				040FD5901A74BFFA006CF97D /* STKDataSourceWrapper.m */,
+				040FD5911A74BFFA006CF97D /* STKHTTPDataSource.h */,
+				040FD5921A74BFFA006CF97D /* STKHTTPDataSource.m */,
+				040FD5931A74BFFA006CF97D /* STKLocalFileDataSource.h */,
+				040FD5941A74BFFA006CF97D /* STKLocalFileDataSource.m */,
+				040FD5951A74BFFA006CF97D /* STKQueueEntry.h */,
+				040FD5961A74BFFA006CF97D /* STKQueueEntry.m */,
+				040FD5971A74BFFA006CF97D /* StreamingKit-Prefix.pch */,
+			);
+			path = StreamingKit;
+			sourceTree = "<group>";
+		};
+		040FD5A31A74C133006CF97D /* MusicPlaying */ = {
+			isa = PBXGroup;
+			children = (
+				040F37C01A772F57004317E9 /* MusicLRC */,
+				040FD5A41A74C133006CF97D /* Controller */,
+				040FD5A51A74C133006CF97D /* Model */,
+				040FD5A61A74C133006CF97D /* View */,
+			);
+			path = MusicPlaying;
+			sourceTree = "<group>";
+		};
+		040FD5A41A74C133006CF97D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				040FD5A71A74C38F006CF97D /* GPMusicPlayingController.h */,
+				040FD5A81A74C38F006CF97D /* GPMusicPlayingController.m */,
+				040FD5AA1A74C3A0006CF97D /* GPMusicPlayingController.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		040FD5A51A74C133006CF97D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				040FD5B11A74D595006CF97D /* GPMusicQueueId.h */,
+				040FD5B21A74D595006CF97D /* GPMusicQueueId.m */,
+				040FD5B41A74D8BC006CF97D /* GPMusicItem.h */,
+				040FD5B51A74D8BC006CF97D /* GPMusicItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		040FD5A61A74C133006CF97D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				040FD5AC1A74CB2A006CF97D /* GPMusicControlView.h */,
+				040FD5AD1A74CB2A006CF97D /* GPMusicControlView.m */,
+				040FD5B71A74DDC6006CF97D /* GPStartPlayButton.h */,
+				040FD5B81A74DDC6006CF97D /* GPStartPlayButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		040FD5D81A74EB2E006CF97D /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				040F37D51A7775E8004317E9 /* Category */,
+				040FD5D91A74EB2E006CF97D /* NetWorking */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		040FD5D91A74EB2E006CF97D /* NetWorking */ = {
+			isa = PBXGroup;
+			children = (
+				046306CD1A866F4D0035B7C5 /* GPNetWorkingManager.h */,
+				046306CE1A866F4D0035B7C5 /* GPNetWorkingManager.m */,
+			);
+			path = NetWorking;
+			sourceTree = "<group>";
+		};
+		047152021A874A5200CD1EC2 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				047152031A874A6900CD1EC2 /* GPMusicTool.h */,
+				047152041A874A6900CD1EC2 /* GPMusicTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		049635E41A77F3B200E0BC00 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				047152021A874A5200CD1EC2 /* Tool */,
+				046306D01A866F880035B7C5 /* GPSingleTon.h */,
+				049635E81A77F46A00E0BC00 /* GPConst.m */,
+				049635EB1A77F5B500E0BC00 /* GPConst.h */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		9A941B791A4F6C606ACF5312 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88412DC53D0314997C2B4553 /* Pods.debug.xcconfig */,
+				1E167FF6FDD45CDCD4544022 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F8A52ACF0A377E38F8746678 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F392BB877CFA8EBE24C7F57 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040FD54A1A74BEC3006CF97D /* LinLinMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040FD56E1A74BEC4006CF97D /* Build configuration list for PBXNativeTarget "LinLinMusic" */;
+			buildPhases = (
+				7391B0D711E8887A1E2C2480 /* Check Pods Manifest.lock */,
+				040FD5471A74BEC3006CF97D /* Sources */,
+				040FD5481A74BEC3006CF97D /* Frameworks */,
+				040FD5491A74BEC3006CF97D /* Resources */,
+				DA852E66A7406D13381098B7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinLinMusic;
+			productName = LinLinMusic;
+			productReference = 040FD54B1A74BEC3006CF97D /* LinLinMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		040FD5631A74BEC4006CF97D /* LinLinMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040FD5711A74BEC4006CF97D /* Build configuration list for PBXNativeTarget "LinLinMusicTests" */;
+			buildPhases = (
+				040FD5601A74BEC4006CF97D /* Sources */,
+				040FD5611A74BEC4006CF97D /* Frameworks */,
+				040FD5621A74BEC4006CF97D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				040FD5661A74BEC4006CF97D /* PBXTargetDependency */,
+			);
+			name = LinLinMusicTests;
+			productName = LinLinMusicTests;
+			productReference = 040FD5641A74BEC4006CF97D /* LinLinMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040FD5431A74BEC3006CF97D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GP;
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = gpr;
+				TargetAttributes = {
+					040FD54A1A74BEC3006CF97D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					040FD5631A74BEC4006CF97D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 040FD54A1A74BEC3006CF97D;
+					};
+				};
+			};
+			buildConfigurationList = 040FD5461A74BEC3006CF97D /* Build configuration list for PBXProject "LinLinMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040FD5421A74BEC3006CF97D;
+			productRefGroup = 040FD54C1A74BEC3006CF97D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040FD54A1A74BEC3006CF97D /* LinLinMusic */,
+				040FD5631A74BEC4006CF97D /* LinLinMusicTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040FD5491A74BEC3006CF97D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040FD55F1A74BEC4006CF97D /* LaunchScreen.xib in Resources */,
+				040FD55C1A74BEC4006CF97D /* Images.xcassets in Resources */,
+				040FD5AB1A74C3A0006CF97D /* GPMusicPlayingController.storyboard in Resources */,
+				040FD5B01A74D53E006CF97D /* a.mp3 in Resources */,
+				042AB4771A76A0FF00E53553 /* a.lrc in Resources */,
+				040F37D11A773170004317E9 /* GPMusicLRCController.storyboard in Resources */,
+				040FD57C1A74BF0D006CF97D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040FD5621A74BEC4006CF97D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7391B0D711E8887A1E2C2480 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DA852E66A7406D13381098B7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040FD5471A74BEC3006CF97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040FD5981A74BFFA006CF97D /* GPAudioPlayer.m in Sources */,
+				040FD59F1A74BFFA006CF97D /* STKDataSourceWrapper.m in Sources */,
+				046306CF1A866F4D0035B7C5 /* GPNetWorkingManager.m in Sources */,
+				040FD5B31A74D595006CF97D /* GPMusicQueueId.m in Sources */,
+				040FD5B91A74DDC6006CF97D /* GPStartPlayButton.m in Sources */,
+				0478359C1A8723580059E2FD /* NSString+Regex.m in Sources */,
+				040F37DB1A7782BB004317E9 /* GPLRCContainerView.m in Sources */,
+				040F37D41A773386004317E9 /* GPMusicCell.m in Sources */,
+				040FD59B1A74BFFA006CF97D /* STKAudioPlayer.m in Sources */,
+				040FD5B61A74D8BC006CF97D /* GPMusicItem.m in Sources */,
+				040F37CB1A772F57004317E9 /* GPMusicLRC.m in Sources */,
+				040F37CC1A772F57004317E9 /* GPLRCView.m in Sources */,
+				040FD5AE1A74CB2A006CF97D /* GPMusicControlView.m in Sources */,
+				040F37D81A77760E004317E9 /* UIView+Frame.m in Sources */,
+				040FD5A21A74BFFA006CF97D /* STKQueueEntry.m in Sources */,
+				040F37CF1A77300E004317E9 /* GPMusicLRCController.m in Sources */,
+				040FD5A91A74C38F006CF97D /* GPMusicPlayingController.m in Sources */,
+				040FD5A01A74BFFA006CF97D /* STKHTTPDataSource.m in Sources */,
+				040FD59C1A74BFFA006CF97D /* STKAutoRecoveringHTTPDataSource.m in Sources */,
+				040FD59E1A74BFFA006CF97D /* STKDataSource.m in Sources */,
+				040F37CA1A772F57004317E9 /* GPLRCViewItem.m in Sources */,
+				049635E91A77F46A00E0BC00 /* GPConst.m in Sources */,
+				040FD57B1A74BF0D006CF97D /* AppDelegate.m in Sources */,
+				040FD5511A74BEC4006CF97D /* main.m in Sources */,
+				040FD59A1A74BFFA006CF97D /* NSMutableArray+STKAudioPlayer.m in Sources */,
+				047152051A874A6900CD1EC2 /* GPMusicTool.m in Sources */,
+				040FD57D1A74BF0D006CF97D /* ViewController.m in Sources */,
+				040FD59D1A74BFFA006CF97D /* STKCoreFoundationDataSource.m in Sources */,
+				040FD5A11A74BFFA006CF97D /* STKLocalFileDataSource.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		040FD5601A74BEC4006CF97D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040FD56B1A74BEC4006CF97D /* LinLinMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		040FD5661A74BEC4006CF97D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 040FD54A1A74BEC3006CF97D /* LinLinMusic */;
+			targetProxy = 040FD5651A74BEC4006CF97D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		040FD55D1A74BEC4006CF97D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040FD55E1A74BEC4006CF97D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040FD56C1A74BEC4006CF97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		040FD56D1A74BEC4006CF97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040FD56F1A74BEC4006CF97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88412DC53D0314997C2B4553 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/LinLinMusic.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = LinLinMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		040FD5701A74BEC4006CF97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E167FF6FDD45CDCD4544022 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(PRODUCT_NAME)/LinLinMusic.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
+				INFOPLIST_FILE = LinLinMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		040FD5721A74BEC4006CF97D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LinLinMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinLinMusic.app/LinLinMusic";
+			};
+			name = Debug;
+		};
+		040FD5731A74BEC4006CF97D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LinLinMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinLinMusic.app/LinLinMusic";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040FD5461A74BEC3006CF97D /* Build configuration list for PBXProject "LinLinMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040FD56C1A74BEC4006CF97D /* Debug */,
+				040FD56D1A74BEC4006CF97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040FD56E1A74BEC4006CF97D /* Build configuration list for PBXNativeTarget "LinLinMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040FD56F1A74BEC4006CF97D /* Debug */,
+				040FD5701A74BEC4006CF97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040FD5711A74BEC4006CF97D /* Build configuration list for PBXNativeTarget "LinLinMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040FD5721A74BEC4006CF97D /* Debug */,
+				040FD5731A74BEC4006CF97D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040FD5431A74BEC3006CF97D /* Project object */;
+}
